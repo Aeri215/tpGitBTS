@@ -45,17 +45,38 @@ public class Calculatormain {
 			}
 			
 			if(test(reponse, "soustraction")) {
-				System.out.println("J'execute la soustraction");
+				System.out.println("Saisir la premiere valeur :");
+				v1 = input.nextInt();
+				
+				System.out.println("Saisir la deuxième valeur :");
+				v2 = input.nextInt();
+				
+				calcul.substraction(v1, v2);
+				
 				verrou = false;
 			}
 			
 			if(test(reponse, "multiplication")) {
-				System.out.println("test reussi");
+				System.out.println("Saisir la premiere valeur :");
+				v1 = input.nextInt();
+				
+				System.out.println("Saisir la deuxième valeur :");
+				v2 = input.nextInt();
+				
+				calcul.multiplication(v1, v2);
+				
 				verrou = false;
 			}
 
 			if(test(reponse, "division")) {
-				System.out.println("test reussi");
+				System.out.println("Saisir la premiere valeur :");
+				v1 = input.nextInt();
+				
+				System.out.println("Saisir la deuxième valeur :");
+				v2 = input.nextInt();
+				
+				calcul.division(v1, v2);
+				
 				verrou = false;
 			}
 			
