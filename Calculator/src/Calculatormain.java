@@ -27,7 +27,7 @@ public class Calculatormain {
 
 		Operators calcul = new Operators();
 		
-		
+	
 		while(verrou) {
 			Scanner input = new Scanner(System.in);
 			reponse = input.nextLine();
@@ -36,7 +36,7 @@ public class Calculatormain {
 				System.out.println("Saisir la premiere valeur :");
 				v1 = input.nextInt();
 				
-				System.out.println("Saisir la deuxième valeur :");
+				System.out.println("Saisir la deuxieme valeur :");
 				v2 = input.nextInt();
 				
 				calcul.addition(v1, v2);
@@ -48,7 +48,7 @@ public class Calculatormain {
 				System.out.println("Saisir la premiere valeur :");
 				v1 = input.nextInt();
 				
-				System.out.println("Saisir la deuxième valeur :");
+				System.out.println("Saisir la deuxieme valeur :");
 				v2 = input.nextInt();
 				
 				calcul.substraction(v1, v2);
@@ -60,7 +60,7 @@ public class Calculatormain {
 				System.out.println("Saisir la premiere valeur :");
 				v1 = input.nextInt();
 				
-				System.out.println("Saisir la deuxième valeur :");
+				System.out.println("Saisir la deuxieme valeur :");
 				v2 = input.nextInt();
 				
 				calcul.multiplication(v1, v2);
@@ -72,7 +72,7 @@ public class Calculatormain {
 				System.out.println("Saisir la premiere valeur :");
 				v1 = input.nextInt();
 				
-				System.out.println("Saisir la deuxième valeur :");
+				System.out.println("Saisir la deuxieme valeur :");
 				v2 = input.nextInt();
 				
 				calcul.division(v1, v2);
