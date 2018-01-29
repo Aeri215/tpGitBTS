@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class Calculatormain {
 
 	public static boolean test(String chaine1, String chaine2)
@@ -19,8 +20,12 @@ public class Calculatormain {
 		
 		
 		String reponse;
+		int v1, v2;
+		
 		boolean verrou = true;
 		
+
+		Operators calcul = new Operators();
 		
 		
 		while(verrou) {
@@ -28,8 +33,14 @@ public class Calculatormain {
 			reponse = input.nextLine();
 
 			if(test(reponse, "addition")) {
+				System.out.println("Saisir la premiere valeur :");
+				v1 = input.nextInt();
 				
-				System.out.println("J'execute l'addition");
+				System.out.println("Saisir la deuxième valeur :");
+				v2 = input.nextInt();
+				
+				calcul.addition(v1, v2);
+				
 				verrou = false;
 			}
 			
@@ -59,6 +70,4 @@ public class Calculatormain {
 		}
 	}
 	
-	
-
 }
